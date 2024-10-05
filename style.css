@@ -32,22 +32,19 @@ nav ul li a {
 }
 
 .hero {
-    position: relative;
+    background-image: url('https://images.pexels.com/photos/6693657/pexels-photo-6693657.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: white;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
 .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
 }
